@@ -1,0 +1,48 @@
+{
+  "kmeans": {
+    "2786d01c-d519-466e-9d3e-484624ce6dba": {
+      "features": 4,
+      "supports_openvino": false,
+      "onnx_path": "model_repo/onnx/kmeans_2786d01c-d519-466e-9d3e-484624ce6dba.onnx",
+      "ir_path": null
+    },
+    "192df609-8ebd-4b6a-84be-50fba6b0d937": {
+      "features": 4,
+      "supports_openvino": false,
+      "onnx_path": "model_repo/onnx/kmeans_192df609-8ebd-4b6a-84be-50fba6b0d937.onnx",
+      "ir_path": null
+    },
+    "36220c57-e327-4df0-83f7-ee44478f3fdc": {
+      "features": 4,
+      "supports_openvino": false,
+      "onnx_path": "model_repo/onnx/kmeans_36220c57-e327-4df0-83f7-ee44478f3fdc.onnx",
+      "ir_path": null
+    },
+    "0de5832e-8ea5-4fd6-b913-49e513a659f7": {
+      "features": 4,
+      "supports_openvino": false,
+      "onnx_path": "model_repo/onnx/kmeans_0de5832e-8ea5-4fd6-b913-49e513a659f7.onnx",
+      "ir_path": null
+    },
+    "83f21a73-08f1-488b-97c9-aba3d5b26c2b": {
+      "features": 4,
+      "supports_openvino": false,
+      "onnx_path": "model_repo/onnx/kmeans_83f21a73-08f1-488b-97c9-aba3d5b26c2b.onnx",
+      "ir_path": null
+    },
+    "322edaf9-762b-4d9a-b84b-def2a9f2d7e9": {
+      "features": 4,
+      "supports_openvino": true,
+      "onnx_path": "model_repo/onnx/kmeans_322edaf9-762b-4d9a-b84b-def2a9f2d7e9.onnx",
+      "ir_path": "model_repo/ir/kmeans/322edaf9-762b-4d9a-b84b-def2a9f2d7e9"
+    }
+  },
+  "svm": {
+    "c5fe1b68-1617-4bcb-a589-d036eb7e24d1": {
+      "features": 4,
+      "supports_openvino": false,
+      "onnx_path": "model_repo/onnx/svm_c5fe1b68-1617-4bcb-a589-d036eb7e24d1.onnx",
+      "ir_path": null
+    }
+  }
+}
