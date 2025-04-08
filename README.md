@@ -3,19 +3,26 @@ This poc uses a fastapi service to give a brief demo of the proposal
 The /train endpoint -> accepts models from input with hyperparameters and stores it as an onnx file and if openvino supported then as an ir model.
 The /predict endpoint -> calls model for inference with a payload 
 
-Run:
+
+## ▶️ Run
+
+```bash
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
-Example curl:
-For Train API:
+## Example curl:
+## For Train API:
+```bash
 curl -X POST http://localhost:8000/train \
   -H "Content-Type: application/json" \
   -d '{
     "algorithm": "kmeans"
 }'
+```
 
-For Kmeans API:
+For Predict API:
+```bash
 curl -X POST http://localhost:8000/predict \
   -H "Content-Type: application/json" \
   -d '{
@@ -26,3 +33,4 @@ curl -X POST http://localhost:8000/predict \
       [4.0, 3.0, 2.0, 1.0]
     ]
 }'
+```
