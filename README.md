@@ -1,8 +1,8 @@
-POC for OpenVINO Model Serve Idea
-This poc uses a fastapi service to give a brief demo of the proposal
-The /train endpoint -> accepts models from input with hyperparameters and stores it as an onnx file and if openvino supported then as an ir model.
-The /predict endpoint -> calls model for inference with a payload 
+# POC for OpenVINO Model Serve Idea
 
+This POC uses a FastAPI service to give a brief demo of the proposal.  
+The `/train` endpoint → accepts models from input with hyperparameters and stores it as an ONNX file, and if OpenVINO-supported, then also as an IR model.  
+The `/predict` endpoint → calls the model for inference with a payload.
 
 ## ▶️ Run
 
